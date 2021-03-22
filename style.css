@@ -24,15 +24,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  filter: grayscale(50%);
   border: solid;
   border-color: f0fff0;
   transform: scale(1);
-  color: #f0fff0;
+  color: #ffffff;
   cursor: pointer;
 }
 .button:hover {
-  filter: grayscale(0%);
   transform: scale(1.1);
   border-style: solid;
   border-color: #f0fff0;

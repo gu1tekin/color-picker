@@ -25,7 +25,7 @@
   justify-content: space-around;
   align-items: center;
   border: solid;
-  border-color: f0fff0;
+  border-color: #f0fff0;
   transform: scale(1);
   color: #ffffff;
   cursor: pointer;
@@ -40,18 +40,46 @@
   border: none !important;
 }
 
-.color-ffbe0b {
-  background-color: #ffbe0b;
+.color-49599b {
+  background-color: #49599b;
 }
-.color-fb5607 {
-  background-color: #fb5607;
+.color-ffa726 {
+  background-color: #ffa726;
 }
-.color-ff006e {
-  background-color: #ff006e;
+.color-e65100 {
+  background-color: #e65100;
 }
-.color-8338ec {
-  background-color: #8338ec;
+.color-2e7d32 {
+  background-color: #2e7d32;
 }
-.color-3a86ff {
-  background-color: #3a86ff;
+.color-263238 {
+  background-color: #263238;
+}
+
+#color-accessibility {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto-fit);
+  overflow-x: auto;
+}
+
+.scheme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 825px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }

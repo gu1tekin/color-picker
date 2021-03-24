@@ -11,20 +11,15 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom styles CSS -->
     <link href="style.css" rel="stylesheet" />
     <title>Color Picker</title>
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190575332-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-190575332-1',{
-  'linker': { 'domains': ['dev.br','github.io']}
-});
-</script>
-    
   </head>
   <body>
     <main>
@@ -45,13 +40,13 @@
           <table>
             <tr>
               <th>Primary</th>
-              <th>Aa Large Text</th>
-              <th>Aa Normal Text</th>
+              <th><span class="large-text">Aa</span> Large Text</th>
+              <th><span class="normal-text">Aa</span> Normal Text</th>
             </tr>
             <tr>
-              <td>#ffa72</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
+              <td>#ffffff <i class="far fa-copy"></i></td>
+              <td class="table-white-text">White Text</td>
+              <td class="table-italic-text">Black Text</td>
             </tr>
             <tr>
               <td></td>

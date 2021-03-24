@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDNS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <!-- Custom styles CSS -->
     <link href="style.css" rel="stylesheet" />
     <title>Color Picker</title>
@@ -11,9 +18,11 @@
   <body>
     <main>
       <div id="reset-color">
-        <div color="#ffffff" class="button color-ffffff">RESET</div>
+        <div color="#ffffff" class="button reset">
+          <i class="fas fa-undo-alt fa-2x"></i>
+        </div>
       </div>
-      <div id="colors-nav">
+      <div id="colors-nav" onclick="showColoAccessibility();">
         <div color="#49599b" class="button color-49599b">Indigo</div>
         <div color="#ffa726" class="button color-ffa726">Amber</div>
         <div color="#e65100" class="button color-e65100">Orange</div>
@@ -37,11 +46,6 @@
               <td></td>
               <td>Francisco Chang</td>
               <td>Mexico</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
             </tr>
           </table>
         </div>

@@ -24,19 +24,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid;
-  border-color: #f0fff0;
-  transform: scale(1);
-  color: #ffffff;
+  border: none;
   cursor: pointer;
 }
 .button:hover {
-  transform: scale(1.1);
   border-style: solid;
-  border-color: #f0fff0;
+  border: none;
 }
 
-.color-ffffff {
+.reset {
   border: none !important;
 }
 

@@ -28,6 +28,7 @@
   transform: scale(1);
   cursor: pointer;
   border: none;
+  color: whitesmoke;
 }
 .button:hover {
   transform: scale(1.1);
@@ -36,7 +37,10 @@
 }
 
 .reset {
-  border: none !important;
+  color: gray !important;
+}
+.reset:hover {
+  color: black !important;
 }
 
 .color-49599b {
@@ -84,7 +88,7 @@ th {
 }
 
 .table-white-text {
-  color: white;
+  color: #ffffff;
 }
 
 .large-text {
@@ -93,4 +97,9 @@ th {
 
 .normal-text {
   font-size: 24px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
 }

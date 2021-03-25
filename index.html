@@ -24,16 +24,50 @@
   <body>
     <main>
       <div id="reset-color">
-        <div color="#ffffff" class="button reset">
+        <div
+          id="colorReset"
+          class="button reset"
+          onclick="showColorCode(this.id)"
+        >
           <i class="fas fa-undo-alt fa-2x"></i>
         </div>
       </div>
-      <div id="colors-nav" onclick="showColoAccessibility();">
-        <div color="#49599b" class="button color-49599b">Indigo</div>
-        <div color="#ffa726" class="button color-ffa726">Amber</div>
-        <div color="#e65100" class="button color-e65100">Orange</div>
-        <div color="#2e7d32" class="button color-2e7d32">Green</div>
-        <div color="#263238" class="button color-263238">Blue Grey</div>
+      <div id="colors-nav">
+        <div
+          id="colorIndigo"
+          class="button color-49599b"
+          onclick="showColorCode(this.id)"
+        >
+          Indigo
+        </div>
+        <div
+          id="colorAmber"
+          class="button color-ffa726"
+          onclick="showColorCode(this.id)"
+        >
+          Amber
+        </div>
+        <div
+          id="colorOrange"
+          class="button color-e65100"
+          onclick="showColorCode(this.id)"
+        >
+          Orange
+        </div>
+        <div
+          id="colorGreen"
+          class="button color-2e7d32"
+          onclick="showColorCode(this.id)"
+        >
+          Green
+        </div>
+        <div
+          id="colorBlueGrey"
+          class="button color-263238"
+          onclick="showColorCode(this.id)"
+        >
+          Blue Grey
+        </div>
       </div>
       <div id="color-accessibility">
         <div color="#" class="scheme">
@@ -44,13 +78,13 @@
               <th><span class="normal-text">Aa</span> Normal Text</th>
             </tr>
             <tr>
-              <td>#ffffff <i class="far fa-copy"></i></td>
+              <td id="color-code"></td>
               <td class="table-white-text">White Text</td>
               <td class="table-italic-text">Black Text</td>
             </tr>
             <tr>
               <td></td>
-              <td>Francisco Chang</td>
+              <td>Black Text</td>
               <td>Mexico</td>
             </tr>
           </table>

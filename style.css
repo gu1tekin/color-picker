@@ -69,7 +69,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 0px 25px 0px 25px;
 }
 
 table {
@@ -77,14 +77,21 @@ table {
   border-collapse: collapse;
   width: 825px;
   border-spacing: 0;
+  table-layout: fixed;
 }
 
-td,
 th {
-  border: 1px solid #616161;
   text-align: left;
-  padding: 8px 8px 8px 15px;
   font-size: 12px;
+  padding: 20px 8px 10px 15px;
+}
+
+td {
+  border-bottom: 1px solid #616161;
+  border-top: 1px solid #616161;
+  text-align: left;
+  font-size: 12px;
+  padding: 8px 8px 10px 15px;
 }
 
 .table-white-text {
@@ -102,4 +109,8 @@ th {
 a.disabled {
   pointer-events: none;
   cursor: default;
+}
+
+#test12 {
+  padding-bottom: 500px !important;
 }

@@ -110,7 +110,3 @@ a.disabled {
   pointer-events: none;
   cursor: default;
 }
-
-#test12 {
-  padding-bottom: 500px !important;
-}

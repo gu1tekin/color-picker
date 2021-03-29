@@ -258,3 +258,13 @@ function showColorCode(colorID) {
     tableD.style.background = blueGreyD;
   }
 }
+
+function copyToClipboard(ColorID2) {
+  let copyColorCode = document.getElementById(ColorID2).innerText;
+  let colorCode = document.createElement("textarea");
+  colorCode.value = copyColorCode;
+  document.body.appendChild(colorCode);
+  colorCode.select();
+  document.execCommand("copy");
+  document.body.removeChild(colorCode);
+}
